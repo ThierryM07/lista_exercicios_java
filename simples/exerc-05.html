@@ -1,8 +1,18 @@
 <script>
 //5) Escreva um programa para ler as dimensões de uma cozinha retangular (comprimento, largura e altura), calcular e escrever a quantidade de caixas de azulejos para se colocar em todas as suas paredes (considere que não será descontada a área ocupada por portas e janelas). Cada caixa de azulejos possui 1,5 m2. 
 
-//entrada 
+//entrada
+let largura = prompt ("Qual é a lagura?")
+let comprimento = prompt ("qual e o comprimento ?")
+let altura = prompt("Qual e a Altura ?")
+
 //processamento
+let metrosQ = (largura * comprimento * altura)
+let caixa = (metrosQ / 1,5)
+
 //saida
+alert("Sao necessárias: \n" , caixa )
+console.log("Sao necessárias: \n" , caixa )
+document.write("Sao necessárias: \n" , caixa )
 
 </script>
